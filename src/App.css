@@ -65,6 +65,13 @@ h3, h4, h5, h6{
   background-color: #fff;
 }
 /* ==== */
+
+.nav-link{
+  color: black !important;
+  font-weight: 600;
+
+}
+
 /* newslatter area */
 .newslatter__area h2{
   color: #0d052e;
