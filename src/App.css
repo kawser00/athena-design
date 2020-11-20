@@ -1,0 +1,285 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Yeseva One', cursive;
+title-color: 0d052e
+text-color: 8d8d8d
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    font-family: 'Yeseva One', cursive;
+}
+h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.app__btn{
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    background: rgb(0,158,253);
+    background: linear-gradient(-37deg, rgba(0,158,253,1) 0%, rgba(42,245,152,1) 100%);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;    
+}
+.app__btn:hover{
+    background: rgb(0,158,253);
+    background: linear-gradient(-37deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+    text-decoration: none;
+}
+.app__btn:focus{
+    outline: none;
+}
+/* hero area */
+.hero__area{
+    background: url('./assets/header-bg.png');    
+    min-height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero__area__left h1 {
+    font-size: 106px;
+    line-height: 85px;
+    margin-bottom: 50px;
+    color: #0d052e;
+}
+.hero__area__left p{
+    color: #8d8d8d;
+}
+/* hero area */
+
+
+/* Footer area */
+.footer__area{
+    padding: 50px 0;
+}
+.footer__social {
+    margin-top: 20px;
+}
+
+.footer__social a {
+    margin: 0 5px;
+}
+
+.footer__links ul {
+    list-style: none;
+}
+
+.footer__links ul li {
+    margin-bottom: 5px;
+}
+
+.footer__links ul li a {
+    font-size: 20px;
+    color: #464646;
+}
+/* Footer area */
+
+
+/* Media Query */
+@media (max-width: 470px){
+    .hero__area__left h1 {
+        font-size: 76px;        
+    }
+    .hero__area__right img{
+        margin: 40px 0;
+    }   
+}
+/* Media Query */
+
+/* Added By Zahir */
+
+/* ============== Global Css ================= */
+li{
+    list-style: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  section{
+    padding-top: 100px;
+  }
+  
+  .athenaButton{
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    border: none !important;
+    border-radius: 20px 0px;
+    background: rgb(28,216,186);
+    background: -o-linear-gradient(297deg, rgba(28,216,186,1) 12%, rgba(7,172,236,1) 100%);
+    background: linear-gradient(153deg, rgba(28,216,186,1) 12%, rgba(7,172,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1cd8ba",endColorstr="#07acec",GradientType=1); 
+  }
+  .athenaHeading{
+    font-family: 'Yeseva One', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: #0D052E;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+    color: #7c7c7c;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    
+  }
+  
+  
+  
+  /* ============== Achievement Section ================= */
+  .achievmentSection{
+  background: #FAFFFD;
+  z-index: -1;
+  }
+  .achievmentCardContent{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #707070;
+    background: #fff;
+    padding: 30px 10px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-box-shadow: 0px 0px 20px 5px #dbf0f8;
+            box-shadow: 0px 0px 20px 5px #dbf0f8;
+  }
+  .achievmentCardContent img{
+    width: 50px;
+    
+  }
+  .achievmentCardContent:hover{
+    border-radius: 0px 60px;
+    padding: 30px 10px;
+    background: rgb(7,172,236);
+    background: -o-linear-gradient(297deg, rgba(7,172,236,1) 0%, rgba(30,220,181,1) 65%);
+    background: linear-gradient(153deg, rgba(7,172,236,1) 0%, rgba(30,220,181,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07acec",endColorstr="#1edcb5",GradientType=1); 
+  z-index: 9999;
+  }
+  
+  .achievmentCard:nth-child(1) .achievmentCardContent{
+    color: #fff;
+    border-radius: 0px 60px;
+    padding: 30px 10px;
+    background: rgb(7,172,236);
+    background: -o-linear-gradient(297deg, rgba(7,172,236,1) 0%, rgba(30,220,181,1) 65%);
+    background: linear-gradient(153deg, rgba(7,172,236,1) 0%, rgba(30,220,181,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07acec",endColorstr="#1edcb5",GradientType=1); 
+  }
+  .achievmentCard:nth-child(2) .achievmentCardContent{
+    border-radius: 60px 0px;
+  }
+  .achievmentCard:nth-child(3) .achievmentCardContent{
+    border-radius: 60px 00px;
+  }
+  .achievmentCard:nth-child(4) .achievmentCardContent{
+    border-radius: 0px 60px;
+  }
+  
+  
+  .achievmentCardHeading{
+    margin-left: 20px;
+  }
+  .achievmentCardHeading h1{
+  font-size: 35px;
+  font-weight: 700;
+  }
+  .achievmentCardHeading h6{
+    font-size: 19px;
+  }
+  /* ============== Pricing Section ================= */
+  
+  .priceSection{
+    background: #FAFFFD;
+    position: relative;
+    width:100%;
+    height: 100%;
+  }
+  
+  .priceSection::before{
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -550px;
+    width: 90%;
+    height: 168vh;
+    background: url(./assets/Group\ 58.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+   }
+  .priceCard{
+    padding: 40px 10px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px 2px #dbf0f8;
+            box-shadow: 0px 0px 10px 2px #dbf0f8;
+    border: 2px solid #3cedcc00;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  
+  .priceCard:hover{
+    border: 2px solid #3CEDCE;
+  }
+  .priceCard h1{
+    color: #494242;
+  font-weight: 700;
+  }
+  .priceCard h6{
+    font-size: 20px;
+  }
+  .priceCard hr{
+    width: 60%;
+  height: 1px;
+  background: #63F0D7;
+  margin: 15px auto;
+  }
+  
+  
+  
+  .priceCard ul{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .priceCard ul li{
+    padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #515151;
+  }
+  .priceCard button{
+    margin-top: 30px;
+  }
+  
+  
+  
+  @media (max-width: 767px){
+    body{
+      text-align: center;
+    }
+    .athenaHeading{
+      font-size: 30px;
+    }
+    
+  }
+  @media (max-width: 575px){
+    .banner h1{
+      font-size: 35px;
+    }
+    .athenaHeading{
+      font-size: 22px;
+    }
+  
+  }
