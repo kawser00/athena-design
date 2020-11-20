@@ -1,0 +1,95 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Yeseva One', cursive;
+title-color: 0d052e
+text-color: 8d8d8d
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    font-family: 'Yeseva One', cursive;
+}
+h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.app__btn{
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    background: rgb(0,158,253);
+    background: linear-gradient(-37deg, rgba(0,158,253,1) 0%, rgba(42,245,152,1) 100%);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;    
+}
+.app__btn:hover{
+    background: rgb(0,158,253);
+    background: linear-gradient(-37deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%);
+    text-decoration: none;
+}
+.app__btn:focus{
+    outline: none;
+}
+/* hero area */
+.hero__area{
+    background: url('./assets/header-bg.png');    
+    min-height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero__area__left h1 {
+    font-size: 106px;
+    line-height: 85px;
+    margin-bottom: 50px;
+    color: #0d052e;
+}
+.hero__area__left p{
+    color: #8d8d8d;
+}
+/* hero area */
+
+
+/* Footer area */
+.footer__area{
+    padding: 50px 0;
+}
+.footer__social {
+    margin-top: 20px;
+}
+
+.footer__social a {
+    margin: 0 5px;
+}
+
+.footer__links ul {
+    list-style: none;
+}
+
+.footer__links ul li {
+    margin-bottom: 5px;
+}
+
+.footer__links ul li a {
+    font-size: 20px;
+    color: #464646;
+}
+/* Footer area */
+
+
+/* Media Query */
+@media (max-width: 470px){
+    .hero__area__left h1 {
+        font-size: 76px;        
+    }
+    .hero__area__right img{
+        margin: 40px 0;
+    }   
+}
+/* Media Query */
